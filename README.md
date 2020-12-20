@@ -1,6 +1,4 @@
-# Automated-Music-Genre-Detection-and-Classification-using-Machine-Learning.
-
-INTRODUCTION: 
+#INTRODUCTION: 
 
 There are basically 10 types of music genres in our day to day life which we use to listen everyday.They are as 
 - Metal
@@ -79,6 +77,7 @@ We can  use either Spectrogramic images or can apply classification model on the
 CONVOLUTION NEURAL NETWORK : 
 
 
+
 The whole CNN algorithm is divided into two parts i.e 
 1)Convolution 
 2)Pooling 
@@ -109,3 +108,4 @@ It depends on how you load your dataset. One advantage of using sparse.c.c is th
 
 Now we have trained our model with the trained set and got 82.25 % accuracy . Then we compare it with the test set which gave the accuracy of 59.5%. Since the test accuracy is much much lower than the trained accuracy , this shows that the over-fitting has occurred. To remove this over-fitting we did the validation approach by dividing the trained set into train set and validation set in the ratio of 1:3 .
 Then we build 5 layer CNN model to train it with the validation set . The optimizer used here is ADAM optimizer . Sparse Cross-Entropy is used as loss function . The accuracy here after validation approach is 64.5% which is more than the earlier we got.
+
